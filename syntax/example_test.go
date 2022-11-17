@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	"mvdan.cc/sh/v3/syntax"
+	"github.com/katexochen/sh/v3/syntax"
 )
 
 func Example() {

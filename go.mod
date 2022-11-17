@@ -1,4 +1,4 @@
-module mvdan.cc/sh/v3
+module github.com/katexochen/sh/v3
 
 go 1.22
 

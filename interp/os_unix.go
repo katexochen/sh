@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"syscall"
 
+	"github.com/katexochen/sh/v3/syntax"
 	"golang.org/x/sys/unix"
-	"mvdan.cc/sh/v3/syntax"
 )
 
 func mkfifo(path string, mode uint32) error {
