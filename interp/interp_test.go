@@ -21,9 +21,9 @@ import (
 	"time"
 
 	"github.com/go-quicktest/qt"
-	"mvdan.cc/sh/v3/expand"
-	"mvdan.cc/sh/v3/interp"
-	"mvdan.cc/sh/v3/syntax"
+	"github.com/katexochen/sh/v3/expand"
+	"github.com/katexochen/sh/v3/interp"
+	"github.com/katexochen/sh/v3/syntax"
 )
 
 // runnerRunTimeout is the context timeout used by any tests calling Runner.Run.
