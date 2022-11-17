@@ -27,8 +27,8 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"mvdan.cc/sh/v3/expand"
-	"mvdan.cc/sh/v3/syntax"
+	"github.com/katexochen/sh/v3/expand"
+	"github.com/katexochen/sh/v3/syntax"
 )
 
 // A Runner interprets shell programs. It can be reused, but it is not safe for

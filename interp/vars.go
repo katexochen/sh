@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"strings"
 
-	"mvdan.cc/sh/v3/expand"
-	"mvdan.cc/sh/v3/syntax"
+	"github.com/katexochen/sh/v3/expand"
+	"github.com/katexochen/sh/v3/syntax"
 )
 
 type overlayEnviron struct {
