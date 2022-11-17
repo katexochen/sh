@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"mvdan.cc/sh/v3/syntax"
+	"github.com/katexochen/sh/v3/syntax"
 )
 
 func blocklistBuiltinExec(name string) ExecHandlerFunc {

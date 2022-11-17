@@ -12,9 +12,9 @@ import (
 	"strings"
 	"time"
 
-	"mvdan.cc/sh/v3/expand"
-	"mvdan.cc/sh/v3/interp"
-	"mvdan.cc/sh/v3/syntax"
+	"github.com/katexochen/sh/v3/expand"
+	"github.com/katexochen/sh/v3/interp"
+	"github.com/katexochen/sh/v3/syntax"
 )
 
 func Example() {
