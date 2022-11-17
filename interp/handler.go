@@ -16,7 +16,7 @@ import (
 	"strings"
 	"time"
 
-	"mvdan.cc/sh/v3/expand"
+	"github.com/katexochen/sh/v3/expand"
 )
 
 // HandlerCtx returns HandlerContext value stored in ctx.

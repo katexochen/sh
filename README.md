@@ -15,7 +15,7 @@ For high-level operations like performing shell expansions on strings, see the
 
 ### shfmt
 
-	go install mvdan.cc/sh/v3/cmd/shfmt@latest
+	go install github.com/katexochen/sh/v3/cmd/shfmt@latest
 
 `shfmt` formats shell programs. See [canonical.sh](syntax/canonical.sh) for a
 quick look at its default style. For example:
