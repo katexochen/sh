@@ -9,7 +9,6 @@ import (
 	"io/fs"
 	"os"
 	"regexp"
-	"strings"
 )
 
 var (
@@ -77,8 +76,8 @@ func CouldBeScript2(entry fs.DirEntry) ScriptConfidence {
 		return ConfNotScript
 	case extRe.MatchString(name):
 		return ConfIsScript
-	case strings.IndexByte(name, '.') > 0:
-		return ConfNotScript // different extension
+	// case strings.IndexByte(name, '.') > 0:
+	// 	return ConfNotScript // different extension
 	default:
 		return ConfIfShebang
 	}
